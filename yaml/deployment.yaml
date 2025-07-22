@@ -2,7 +2,8 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
 # Set your lab user name
-  name: yuvalsh92-hello-world
+    name: yuvalsh92-hello-world
+    namespace: yuvalsh92-hello-world
 spec:
   replicas: 3
   selector:
